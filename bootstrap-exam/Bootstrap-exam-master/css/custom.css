@@ -1,0 +1,42 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.carousel img {
+    min-width: 100%;
+  }
+
+.breadcrumb{
+    border-radius: 0px;
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+}
+
+a:link{
+    color: grey;
+}
+
+a:active{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rosybrown;
+    text-decoration: none;
+}
+
+.btn{
+    border-radius: 0px;
+}

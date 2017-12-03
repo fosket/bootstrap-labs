@@ -1,0 +1,67 @@
+
+
+/*
+Blog styling
+*/
+.blog-post {
+    border-bottom:  1px solid black;
+    padding: 1em;
+}
+.blog-post a {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.comment {
+    border-top: 1px solid black;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/*
+Jumbotron & footer styling
+*/
+
+.container .jumbotron {
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+}
+
+footer{
+    margin-top: 5%;
+    padding: 2em 0 2em 0;
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    color: white;
+}
+
+footer .glyphicon {
+    font-size: 2em;
+    color: white;
+}
+
+footer .glyphicon-search{
+    color: black;
+    font-size: 1.12em;
+    border-radius: 0px;
+}
+
+.vertical-align {
+    margin-top: 5%;
+}
+
+
+@media all and (min-width: 768px) {
+
+    .vertical-align {
+        display: flex;
+        align-items: center;
+        
+    }
+}
